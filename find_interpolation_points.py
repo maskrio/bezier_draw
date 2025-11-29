@@ -1,7 +1,7 @@
 import numpy as np
-import extract_interpolation_points
-import polyline_to_bezier_segments
-import distribute_segments_by_length
+from extract_interpolation_points import extract_interpolation_points
+from polyline_to_bezier_segments import polyline_to_bezier_segments
+from distribute_segments_by_length import distribute_segments_by_length
 
 N = 1000
 
