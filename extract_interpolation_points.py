@@ -1,5 +1,6 @@
 import cv2
 
+
 def extract_interpolation_points(image_path):
     # source : https://www.geeksforgeeks.org/python/find-and-draw-contours-using-opencv-python/
     #          https://opencv.org/blog/edge-detection-using-opencv/
